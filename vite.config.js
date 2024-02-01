@@ -5,9 +5,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/yu/",
+  base: "/yu/", // 与github的仓库名一致
   build: {
-    outDir: "docs"
+    outDir: "docs"  // github的设置成这个文件夹
   },
   plugins: [
     vue(),
