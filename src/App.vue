@@ -5,13 +5,19 @@
       <button @click="handleAlert">click me</button>
     </p>
     <p>
+      送给小鱼的烟花
+      <button @click="handleGo('https://fqdawang.github.io/yuhappy/')">
+        click me
+      </button>
+    </p>
+    <p>
       <el-input
         v-model="dailyValue"
         placeholder="Please input"
         style="width: 100px; margin-right: 6px"
       />
-      <!-- <button @click="handleDaily">click me</button> -->
-      <el-button type="primary" @click="handleDaily">click me</el-button>
+      <!-- <el-button type="primary" @click="handleDaily">click me</el-button> -->
+      <button @click="handleDaily">click me</button>
     </p>
   </div>
   <main>
@@ -50,25 +56,33 @@ let writingList = [
   "宝贝，有隐藏款惊喜哦~",
   "静下心来，好好生活。",
   "宝贝，祝你今天有个好心情！",
+  "不羡鸳鸯不羡仙，过好我们的小日子~",
+  "看到你出现，我的世界一下子亮堂了起来。",
+  "宝贝，你出现的刚刚好，在对的时间遇到对的人，我会珍惜的。",
 ];
 
 function handleDaily() {
   showDaily.value = false;
   if (dailyValue.value == "20231202") {
-    alert(`宝贝，还记得这天吗？疯狂且美好。`)
+    alert(`宝贝，还记得这天吗？疯狂且美好。`);
     alert(`
       宝贝，我要跟你在一起。
       想跟你过稀松平常的每一天，安稳度日，共抵风雨。
     `);
-    showDaily.value = true;
+    // showDaily.value = true;
   } else if (dailyValue.value == "小鱼") {
-    alert("我的小鱼~");
+    alert("我的小鱼，想你了~");
   } else if (dailyValue.value == "牛牛") {
     alert("我是牛牛，想我了嘛~");
   } else {
     let index = parseInt(Math.random() * writingList.length);
     alert(writingList[index]);
   }
+}
+
+// 网址跳转
+function handleGo(address) {
+  window.open(address);
 }
 </script>
 
