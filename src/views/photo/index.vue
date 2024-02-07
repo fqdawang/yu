@@ -144,7 +144,7 @@ let list = [
 
 <style scoped>
 .wrapper {
-  padding: 40px 20px 20px 20px;
+  padding: 40px 10px 20px 10px;
   text-align: center;
 }
 /* .photo_item {

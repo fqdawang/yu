@@ -19,7 +19,7 @@
       <button @click="handleDaily">click me</button>
     </p>
     <p>
-      开心就要咔嚓咔嚓
+      咔嚓咔嚓
       <button @click="handleRouter('/photo')">click me</button>
     </p>
   </div>
@@ -63,6 +63,8 @@ let writingList = [
   "不羡鸳鸯不羡仙，过好我们的小日子~",
   "看到你出现，我的世界一下子亮堂了起来。",
   "宝贝，你出现的刚刚好，在对的时间遇到对的人，我会珍惜的。",
+  "咱俩胶黏，咱俩的心也要胶黏胶黏，劲往一处使。",
+  "你不开心我也跟着难受(T＿T)",
 ];
 
 function handleDaily() {
