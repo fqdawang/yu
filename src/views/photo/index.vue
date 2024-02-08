@@ -45,7 +45,7 @@ let list = [
   },
   {
     url: new URL("@/assets/images/2023123102.jpg", import.meta.url).href,
-    desc: "徐家汇",
+    desc: "徐家汇书院",
   },
   {
     url: new URL("@/assets/images/2023123103.jpg", import.meta.url).href,
@@ -138,6 +138,22 @@ let list = [
   {
     url: new URL("@/assets/images/2024020501.jpg", import.meta.url).href,
     desc: "雪后的石老人海滩",
+  },
+  {
+    url: new URL("@/assets/images/2024020502.jpg", import.meta.url).href,
+    desc: "小鱼做的玉米芋头和菜真好吃",
+  },
+  {
+    url: new URL("@/assets/images/2024020701.jpg", import.meta.url).href,
+    desc: "2023年年前和小鱼的最后一顿晚饭",
+  },
+  {
+    url: new URL("@/assets/images/2024020801.jpg", import.meta.url).href,
+    desc: "小鱼带我置办年货",
+  },
+  {
+    url: new URL("@/assets/images/2024020802.jpg", import.meta.url).href,
+    desc: "第一次与小鱼弟弟见面吃饭",
   },
 ];
 </script>
