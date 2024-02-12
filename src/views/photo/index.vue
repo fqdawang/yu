@@ -155,6 +155,10 @@ let list = [
     url: new URL("@/assets/images/2024020802.jpg", import.meta.url).href,
     desc: "第一次与小鱼弟弟见面吃饭",
   },
+  {
+    url: new URL("@/assets/images/2024020901.jpg", import.meta.url).href,
+    desc: "家里龙门口水库",
+  },
 ];
 </script>
 
