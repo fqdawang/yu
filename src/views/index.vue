@@ -6,7 +6,7 @@
     </p>
     <p>
       送给小鱼的烟花
-      <button @click="handleGo('https://fqdawang.github.io/yuhappy/')">
+      <button @click="handleGo('http://fqdawang.gitee.io/fireworks/')">
         click me
       </button>
     </p>
@@ -18,10 +18,10 @@
       />
       <button @click="handleDaily">click me</button>
     </p>
-    <p>
+    <!-- <p>
       咔嚓咔嚓
       <button @click="handleRouter('/photo')">click me</button>
-    </p>
+    </p> -->
   </div>
 </template>
 <script setup>

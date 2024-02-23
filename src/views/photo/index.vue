@@ -167,9 +167,6 @@ let list = [
   padding: 40px 10px 20px 10px;
   text-align: center;
 }
-/* .photo_item {
-  padding-bottom: 10px;
-} */
 .img_container {
   width: 400px;
   margin: 0 auto;
