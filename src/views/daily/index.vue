@@ -9,6 +9,7 @@
       style="margin-bottom: 10px"
       @change="changeMonth"
       :disabled-date="disabledDate"
+      :editable="false"
     />
     <div class="item" v-for="item in list" :key="item.date">
       <div>
@@ -46,6 +47,9 @@ function changeMonth(val) {
     return e.date.indexOf(val) != -1;
   });
   list.value = res;
+  if (!val) {
+    list.value = dailyList;
+  }
 }
 // 禁用日期
 const disabledDate = (time) => {
