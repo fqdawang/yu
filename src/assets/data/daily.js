@@ -301,7 +301,7 @@ const dailyList = [
   },
   {
     date: "2024-02-05",
-    msg: `晚上大雪，很浪漫，我要去找小鱼，喜欢小鱼，浪漫的事情都想跟她在一起。`,
+    msg: ``,
     imgList: [
       {
         url: new URL("@/assets/images/2024020501.jpg", import.meta.url).href,
