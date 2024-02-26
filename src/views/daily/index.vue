@@ -94,7 +94,7 @@ img {
 }
 @media (max-width: 440px) {
   .img_container {
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
   }
 }
