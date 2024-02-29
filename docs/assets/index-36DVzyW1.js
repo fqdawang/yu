@@ -1,4 +1,4 @@
-import{_ as h,f as g,g as k,r as x,c as v,a as t,h as i,b as w,u as V,i as b,e as y,o as C}from"./index--1xFZw8v.js";const $={class:"container"},B={__name:"index",setup(D){const r=g();k();let n=new Date,u=n.getFullYear(),c=n.getMonth()+1,d=n.getDate();function p(){alert(`
+import{_ as h,f as g,g as k,r as x,c as v,a as t,h as i,b as w,u as V,i as b,e as y,o as C}from"./index-4WylN5OT.js";const $={class:"container"},B={__name:"index",setup(D){const r=g();k();let n=new Date,u=n.getFullYear(),c=n.getMonth()+1,d=n.getDate();function p(){alert(`
     ${u}年${c}月${d}日
     我的小鱼宝，今天依旧喜欢你！
   `)}let e=x("与小鱼"),s=["乖乖，长长的路我们慢慢地走。","咱俩胶黏胶黏。","期待和你一起去许多地方。","想和你一起吃许多次饭。","要和你一起睡许多次觉。","宝贝，祝你今天通畅！","过好当下，珍惜眼前人，宝贝。","宝贝，我喜欢你，希望你一切都好。","喵~喵喵~黏着你。","宝贝，有隐藏款惊喜哦~","静下心来，好好生活。","宝贝，祝你今天有个好心情！","不羡鸳鸯不羡仙，过好我们的小日子~","看到你出现，我的世界一下子亮堂了起来。","宝贝，你出现的刚刚好，在对的时间遇到对的人，我会珍惜的。","咱俩胶黏，咱俩的心也要胶黏胶黏，劲往一处使。","你不开心我也跟着难受(T＿T)","你不在我身边我好想你~~~宝贝~~~~"];function f(){if(e.value=="20231202")alert("宝贝，还记得这天吗？疯狂且美好。"),alert(`
