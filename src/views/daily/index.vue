@@ -59,7 +59,7 @@ const disabledDate = (time) => {
 
 <style scoped>
 .wrapper {
-  padding: 40px 10px 20px 10px;
+  padding: 40px 10px 40px 10px;
 }
 .item {
   margin-bottom: 20px;
