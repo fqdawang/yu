@@ -69,19 +69,20 @@ const disabledDate = (time) => {
   }
   .photo_item {
     text-align: center;
-    .img_container {
-      width: 400px;
-      margin: 0 auto;
-      img {
-        width: 100%;
-        vertical-align: top;
-      }
-    }
+
     .desc {
       color: #999;
       font-size: 12px;
       margin-bottom: 20px;
     }
+  }
+}
+.img_container {
+  width: 400px;
+  margin: 0 auto;
+  img {
+    width: 100%;
+    vertical-align: top;
   }
 }
 @media (min-width: 768px) {
