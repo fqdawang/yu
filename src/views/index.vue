@@ -92,16 +92,16 @@ function handleGo(address) {
 }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
 .container {
   padding-top: 50px;
   text-align: center;
-}
-p {
-  line-height: 40px;
-}
-.container >>> .el-input__inner {
-  color: #000;
+  p {
+    line-height: 40px;
+  }
+  /deep/ .el-input__inner {
+    color: #000;
+  }
 }
 </style>
 

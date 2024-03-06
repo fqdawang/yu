@@ -53,38 +53,36 @@ function changeMonth(val) {
 }
 // 禁用日期
 const disabledDate = (time) => {
-  return time.getTime() > Date.now();
+  let startTime = Date.parse("2023-11");
+  return time.getTime() < startTime || time.getTime() > Date.now();
 };
 </script>
 
-<style scoped>
+<style lang="less" scoped>
 .wrapper {
   padding: 40px 10px 70px 10px;
 }
 .item {
   margin-bottom: 20px;
-}
-.info {
-  margin-bottom: 10px;
-}
-.photo_item {
-  text-align: center;
-}
-.photo_item :first-of-type {
-  /* padding-top: 10px; */
-}
-.img_container {
-  width: 400px;
-  margin: 0 auto;
-}
-img {
-  width: 100%;
-  vertical-align: top;
-}
-.desc {
-  color: #999;
-  font-size: 12px;
-  margin-bottom: 20px;
+  .info {
+    margin-bottom: 10px;
+  }
+  .photo_item {
+    text-align: center;
+    .img_container {
+      width: 400px;
+      margin: 0 auto;
+      img {
+        width: 100%;
+        vertical-align: top;
+      }
+    }
+    .desc {
+      color: #999;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+  }
 }
 @media (min-width: 768px) {
   .wrapper {
