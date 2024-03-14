@@ -46,7 +46,7 @@ function handleRouter(path) {
   $router.push({ path });
 }
 
-let dailyValue = ref("与小鱼");
+let dailyValue = ref("金咕噜棒");
 let writingList = [
   "乖乖，长长的路我们慢慢地走。",
   "咱俩胶黏胶黏。",
@@ -57,7 +57,6 @@ let writingList = [
   "过好当下，珍惜眼前人，宝贝。",
   "宝贝，我喜欢你，希望你一切都好。",
   "喵~喵喵~黏着你。",
-  "宝贝，有隐藏款惊喜哦~",
   "静下心来，好好生活。",
   "宝贝，祝你今天有个好心情！",
   "不羡鸳鸯不羡仙，过好我们的小日子~",
@@ -66,6 +65,8 @@ let writingList = [
   "咱俩胶黏，咱俩的心也要胶黏胶黏，劲往一处使。",
   "你不开心我也跟着难受(T＿T)",
   "你不在我身边我好想你~~~宝贝~~~~",
+  "我爱你宝贝。",
+  "我的宝贝是世界上最棒的存在！！",
 ];
 
 function handleDaily() {
@@ -76,10 +77,12 @@ function handleDaily() {
       想跟你过稀松平常的每一天，安稳度日，共抵风雨。
     `);
     $router.push({ path: "/daily" });
-  } else if (dailyValue.value == "小鱼") {
+  } else if (dailyValue.value.indexOf("小鱼") != -1) {
     alert("我的小鱼，我想你了~");
-  } else if (dailyValue.value == "牛牛") {
+  } else if (dailyValue.value.indexOf("牛牛") != -1) {
     alert("我是牛牛，想我了嘛~");
+  } else if (dailyValue.value.indexOf("我爱你") != -1) {
+    alert("我也爱你，宝贝，我最爱你了！");
   } else {
     let index = parseInt(Math.random() * writingList.length);
     alert(writingList[index]);
